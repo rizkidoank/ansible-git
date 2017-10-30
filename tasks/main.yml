@@ -1,0 +1,11 @@
+---
+- name: Install git
+  become: yes
+  apt:
+    name: git
+    cache_valid_time: "{{ apt_cache_valid_time|default(omit) }}"
+    install_recommends: no
+    state: latest
+    update_cache: yes
+  tags:
+    - git
