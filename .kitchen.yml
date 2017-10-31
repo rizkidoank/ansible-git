@@ -15,6 +15,7 @@ provisioner:
   ansible_verbose: true
   require_chef_for_busser: false
   playbook: test/role/main.yml
+  requirements_path: test/role/requirements.yml
 
 verifier:
   name: inspec

@@ -186,3 +186,14 @@ venv.bak/
 
 # mypy
 .mypy_cache/
+
+### ChefCookbook template
+.vagrant
+/cookbooks
+
+# Bundler
+bin/*
+.bundle/*
+
+.kitchen/
+.kitchen.local.yml
