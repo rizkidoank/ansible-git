@@ -1,3 +1,0 @@
-- src: https://github.com/traveloka/ansible-git
-  name: git
-  version: '1.0'
